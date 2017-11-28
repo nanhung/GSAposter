@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.8.10)  28 NOV 2017 17:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.8.10)  28 NOV 2017 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1147,7 +1147,7 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * modes: includehead includefoot 
 * h-part:(L,W,R)=(28.45274pt, 3323.85117pt, 28.45274pt)
 * v-part:(T,H,B)=(0.0pt, 2388.89357pt, 0.0pt)
-* \paperwidth=3468.95999pt
+* \paperwidth=3505.09499pt
 * \paperheight=2529.45pt
 * \textwidth=3323.85117pt
 * \textheight=2360.44084pt
@@ -1344,9 +1344,9 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <16.125> not available
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 95.
-(pdftex.def)             Requested size: 190.58446pt x 208.12912pt.
+(pdftex.def)             Requested size: 192.56934pt x 210.29713pt.
 
-Overfull \hbox (17.12589pt too wide) in paragraph at lines 95--95
+Overfull \hbox (17.3039pt too wide) in paragraph at lines 95--95
  [][] 
  []
 
@@ -1379,7 +1379,7 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <13.435> not available
 File: fig0.pdf Graphic file (type pdf)
  <use fig0.pdf>
 Package pdftex.def Info: fig0.pdf used on input line 324.
-(pdftex.def)             Requested size: 742.09975pt x 556.58003pt.
+(pdftex.def)             Requested size: 750.23007pt x 562.67917pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 324--324
 
@@ -1389,37 +1389,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 324--324
 File: QR.png Graphic file (type png)
  <use QR.png>
 Package pdftex.def Info: QR.png used on input line 324.
-(pdftex.def)             Requested size: 82.46112pt x 82.46118pt.
+(pdftex.def)             Requested size: 83.36455pt x 83.36482pt.
 
 <fig2.pdf, id=24, 722.7pt x 505.89pt>
 File: fig2.pdf Graphic file (type pdf)
  <use fig2.pdf>
 Package pdftex.def Info: fig2.pdf used on input line 324.
-(pdftex.def)             Requested size: 781.88562pt x 547.32567pt.
+(pdftex.def)             Requested size: 790.03027pt x 553.02248pt.
 
 <fig3.pdf, id=25, 867.24pt x 1156.32pt>
 File: fig3.pdf Graphic file (type pdf)
  <use fig3.pdf>
 Package pdftex.def Info: fig3.pdf used on input line 324.
-(pdftex.def)             Requested size: 781.88562pt x 1042.56631pt.
+(pdftex.def)             Requested size: 790.03027pt x 1053.41737pt.
 
 <fig5.pdf, id=26, 1011.78pt x 722.7pt>
 File: fig5.pdf Graphic file (type pdf)
  <use fig5.pdf>
 Package pdftex.def Info: fig5.pdf used on input line 324.
-(pdftex.def)             Requested size: 781.88562pt x 558.49875pt.
+(pdftex.def)             Requested size: 790.03027pt x 564.32127pt.
 
 <fig6.pdf, id=27, 1011.78pt x 867.24pt>
 File: fig6.pdf Graphic file (type pdf)
  <use fig6.pdf>
 Package pdftex.def Info: fig6.pdf used on input line 324.
-(pdftex.def)             Requested size: 781.88562pt x 670.19852pt.
+(pdftex.def)             Requested size: 790.03027pt x 677.18555pt.
 
 <fig7.pdf, id=28, 1300.86pt x 1011.78pt>
 File: fig7.pdf Graphic file (type pdf)
  <use fig7.pdf>
 Package pdftex.def Info: fig7.pdf used on input line 324.
-(pdftex.def)             Requested size: 763.17543pt x 593.59488pt.
+(pdftex.def)             Requested size: 771.12517pt x 599.77028pt.
 LaTeX Font Info:    Calculating math sizes for size <22.39> on input line 324.
 
 
@@ -1440,38 +1440,33 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <11.19499> not available
 File: fig8.pdf Graphic file (type pdf)
  <use fig8.pdf>
 Package pdftex.def Info: fig8.pdf used on input line 324.
-(pdftex.def)             Requested size: 526.5929pt x 614.39053pt.
+(pdftex.def)             Requested size: 532.07825pt x 620.78207pt.
 
-Underfull \hbox (badness 1721) in paragraph at lines 324--324
-\T1/lmss/m/n/22.39 a-tion of model fit and
+Underfull \hbox (badness 3229) in paragraph at lines 324--324
+\T1/lmss/m/n/22.39 per-for-mance. Re-strict-
  []
 
 
-Underfull \hbox (badness 3138) in paragraph at lines 324--324
-\T1/lmss/m/n/22.39 pu-ta-tional bur-den while
+Underfull \hbox (badness 1158) in paragraph at lines 324--324
+\T1/lmss/m/n/22.39 find that the sim-u-la-tion
  []
 
 
-Underfull \hbox (badness 5008) in paragraph at lines 324--324
-\T1/lmss/m/n/22.39 u-la-tion from all sen-si-
- []
-
-
-Underfull \hbox (badness 4036) in paragraph at lines 324--324
-\T1/lmss/m/n/22.39 pro-vide bet-ter pre-ci-sion
+Underfull \hbox (badness 1924) in paragraph at lines 324--324
+\T1/lmss/m/n/22.39 e-ter (ASP) can pro-vide
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png used on input line 324.
-(pdftex.def)             Requested size: 190.58446pt x 208.12912pt.
+(pdftex.def)             Requested size: 192.56934pt x 210.29713pt.
 
-Overfull \hbox (17.12589pt too wide) has occurred while \output is active
+Overfull \hbox (17.3039pt too wide) has occurred while \output is active
  [][] 
  []
 
 
-Overfull \hbox (88.20334pt too wide) has occurred while \output is active
+Overfull \hbox (124.33833pt too wide) has occurred while \output is active
 []
  []
 
@@ -1509,7 +1504,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 326.
 Here is how much of TeX's memory you used:
  20787 strings out of 495028
  384244 string characters out of 6181497
- 599655 words of memory out of 5000000
+ 600835 words of memory out of 5000000
  23433 multiletter control sequences out of 15000+600000
  112447 words of font info for 115 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1518,7 +1513,7 @@ Here is how much of TeX's memory you used:
 ips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmsso17.pfb>
-Output written on main.pdf (1 page, 535038 bytes).
+Output written on main.pdf (1 page, 535039 bytes).
 PDF statistics:
  142 PDF objects out of 1000 (max. 8388607)
  97 compressed objects within 1 object stream
