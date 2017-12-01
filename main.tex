@@ -26,7 +26,7 @@
 
 \usefonttheme{default}
 
-\usepackage[scale=0.9]{beamerposter} % Use the beamerposter package for laying out the poster
+\usepackage[scale=0.89]{beamerposter} % Use the beamerposter package for laying out the poster
 \usepackage{adjustbox}
 \usepackage{threeparttable} % Use footnote
 \usepackage{multirow}
@@ -78,9 +78,9 @@
 %	TITLE SECTION 
 %----------------------------------------------------------------------------------------
 
-\title{Applying A Global Sensitivity Analysis Workflow to Improve the Computational Efficiencies in Physiologically-Based Pharmacokinetic Model} % Poster title
+\title{Applying A Global Sensitivity Analysis Workflow to Improve Computational Efficiency in Physiologically-Based Pharmacokinetic Modeling} % Poster title
 
-\author{Nan-Hung Hsieh$^1$, Weihsueh A. Chiu$^1$, Brad Reisfeld$^2$, Frederic Y. Bois$^3$} % Author(s)
+\author{Nan-Hung Hsieh$^1$, Brad Reisfeld$^2$, Frederic Y. Bois$^3$, Weihsueh A. Chiu$^1$} % Author(s)
 
 \institute{
 $^1$Department of Veterinary Integrative Biosciences ,Texas A\&M University, College Station, TX, USA\\
@@ -111,15 +111,15 @@ $^3$Models for Ecotoxicology and Toxicology Unit, Institut National de l'Environ
 \begin{column}{0.25\paperwidth} % The first column
 %
 %
-\begin{alertblock}{Motivations}
-The population physiologically-based pharmacokinetic (PBPK) model usually constructed from dozens of parameters that are affected by uncertainties and can change the model output.
-The complexity of PBPK model poses a challenge in estimating parameters due to many parameters being unidentifiable. 
-To increase computational efficiency, the current approach is to fix known model parameters and only optimize the small subset of parameters. 
+\begin{alertblock}{Introduction}
+A population physiologically-based pharmacokinetic (PBPK) models usually constructed from dozens of parameters that are affected by uncertainties that can change the model output.
+The complexity of PBPK models pose a challenge in estimating parameters due to many parameters being unidentifiable. 
+To increase computational efficiency, the current approach is to fix "known" model parameters and only optimize a small subset of parameters. 
 However, this method can lead to problems such as biased estimates for fitted parameters due to correlations/interactions with the fixed parameter. 
 The purpose of this study is to propose a global sensitivity analysis (GSA) workflow which can 
 
 \begin{itemize}
-\item \textbf{Reduce the PBPK model parameters dimensionality}
+\item \textbf{Reduce PBPK model parameter dimensionality}
 \item \textbf{Reduce the computational burden without introducing bias}
 \item \textbf{Mantain the reliability of parameter estimates and model performance}
 \end{itemize}
@@ -135,11 +135,11 @@ The purpose of this study is to propose a global sensitivity analysis (GSA) work
 \setbeamercolor{block title}{fg=Maroon,bg=white} % Change the block title color
 
 \begin{alertblock}{Workflow}
-We applied our published PBPK model for testing, which can predict and characterize the absorption, distribution, metabolism, and excretion of acetaminophen (APAP) with two major metabolites of APAP-glucuronide and APAP-sulfate in humans \cite{Zurlinden}.
-In our GSA workflow, we evaluated three variance-based GSA approach that can calculate both main and total effects as sensitivity indices \cite{McNally, Jansen, Owen}.
-Moreover, we also applied the elementary effects method to compare the sensitivity indices from variance-based GSA approach and judge the reliability of each method. 
-To understand the time-dependent variation of sensitivity index, we examine each index in 12-hours after APAP intake as GSA time points.
-Finally, we compare the model performance (accuracy and precision) among the four different parameter settings.
+We applied our workflow to a previously published PBPK model that predicts and characterizes the absorption, distribution, metabolism, and excretion of acetaminophen (APAP) and two major metabolites of APAP-glucuronide and APAP-sulfate in humans \cite{Zurlinden}.
+In our GSA workflow, we evaluated three variance-based GSA approach that can calculate both interaction and main effects as sensitivity indices \cite{McNally, Jansen, Owen}.
+Moreover, we also applied the "elementary effects" method to compare the sensitivity indices with the variance-based GSA approach and judge the reliability of each method. 
+To understand the time-dependent variation of sensitivity, we examine each index seperately at each time point from 0.5 - 12 hr.
+We compared the model performance (accuracy and precision) among four different parameter settings as shown in Figure 1.
 
 \begin{figure}
 \includegraphics[width=0.9\linewidth]{fig0.pdf}
@@ -149,7 +149,7 @@ Finally, we compare the model performance (accuracy and precision) among the fou
 \end{alertblock}
 
 \begin{alertblock}{Software and computing platform}
-This study was fully conduct in open source environment. 
+This study was fully conducted in an open source environment. 
 Statistical analysis and visualization results were carried out in R v3.4.0.
 The GSA was performed with R "Sensitivity" package v1.15 \cite{Pujol17}. 
 The MCMC simulations and setpoint analyses were conducted using MCSim v5.6 \cite{Bois09}.
@@ -159,7 +159,7 @@ Parallelizing computation was performed in high performance computing cluster wi
 
 \noindent\begin{minipage}{0.85\textwidth}% adapt widths of minipages to your needs
 \textbf{Source code}\\
-\small{This poster was making by Latex-BeamerPoster.}\\
+\small{This poster was created using Latex-BeamerPoster.}\\
 \small{All source code can find in the github repository: nanhung/GSAposter}\\
 \end{minipage}%
 \hfill%
@@ -175,23 +175,23 @@ Parallelizing computation was performed in high performance computing cluster wi
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{column}{0.23\paperwidth} % The 2nd column
 
-\begin{block}{Convergence and Computation Time}
+\begin{block}{Results: Convergence and Computation Time}
 \begin{figure}
 \includegraphics[width=0.98\linewidth]{fig2.pdf}
 \caption{Illustration of the effect of model evaluation on convergence index and computation time (min).
-The number of sample size has been increased up from 1024 to 8192 under original 21 and all 58 model parameter settings.
-Under our setting range of sample size, the eFAST method can lead the expected convergence condition, resulting in convergence index less than 0.1.
+The sample size has been increased up from 1024 to 8192 under original 21 and all 58 model parameter settings.
+In this range of sample size, the eFAST method can lead the expected convergence condition (convergence index < 0.1), rapidly.
 }
 \end{figure}
 \end{block}
 
 
-\begin{block}{Sensitivity Analysis for Original Model Parameter}
+\begin{block}{Results: GSA for Original Model Parameters}
 \begin{figure}
 \includegraphics[width=0.98\linewidth]{fig3.pdf}
 \caption{Time-dependent sensitivity coefficients computed through the different GSA methods with parent APAP and its conjugates. 
-We can obtain that eFAST, Jansen, and Owen (variance-based method) can generate similar results. However, the sensitivity properties are different with Morris (one-step-at-a-time method).
-According to the GSA result from eFAST, we found 11 parameters that influence the model output that Sobol indices were higher than the benchmark (0.05).
+The eFAST, Jansen, and Owen (all variance-based methods) generate similar results (bottom pannel). However, the sensitivity properties are different with Morris (Tone-step-at-a-time method)(top pannel).
+Based on the GSA results from eFAST, we found 11 parameters that influence the model output that Sobol indices were higher than the benchmark (0.05).
 }
 \end{figure}
 \end{block}
@@ -203,21 +203,22 @@ According to the GSA result from eFAST, we found 11 parameters that influence th
 \begin{column}{0.23\paperwidth} % The 3rd column
 %
 %
-\begin{block}{Sensitivity Analysis for All Model Parameter}
+\begin{block}{Results: GSA for All Model Parameters}
 \begin{figure}
 \includegraphics[width=0.98\linewidth]{fig5.pdf}
-\caption{The result of sensitivity analysis of eFAST method that includes the original 21 original model parameters and 37 additional parameters that were fixed in the previous study. 
-All 11 original sensitivity parameter still influence the model output. After incorporating the previously fixed parameters in our analysis, we further detect 9 parameters that Sobol indices were higher than the benchmark (0.01).}
+\caption{The result of sensitivity analysis of eFAST method that includes 21 original parameters and 37 additional parameters that were fixed in the previous study. 
+All 11 original sensitivity parameter still influence the model output. After incorporating the previously fixed parameters in our analysis, we further detect 9 parameters with Sobol indices higher than the benchmark (0.01).}
 \end{figure}
 \end{block}
 %
-\begin{block}{Evaluation of Model Parameter}
+\begin{block}{Evaluation of Posterior Parameter Distribution}
 \begin{figure}
 \includegraphics[width=0.98\linewidth]{fig6.pdf}
-\caption{The comparison of the marginal posterior distribution of sensitive parameters and lndata. The result shows the statistical bias among four different parameter settings.
-The result of lndata shows that the all model parameter setting has the best calibration result. 
-Moreover, the current study can provide the better calibration result than original all parameter setting when only consider the sensitive parameter in PBPK model.
+\caption{The comparison of the marginal posterior distributions of sensitive parameters and lndata. 
+The result shows the statistical bias when fixing parameter using "expert judgment".
+The result of lndata shows that the all model parameter setting has the best calibration result, but the "all sensitive parameters" can obtain the better result than original analysis.
 }
+
 \end{figure}
 \end{block}
  %
@@ -226,7 +227,7 @@ Moreover, the current study can provide the better calibration result than origi
 \item This study obtained the similar results from three different variance-based GSA methods.
 \item Using eFAST method as GSA approach to determine which parameters to fix and which to estimate can lead to better computational efficiency.
 \item The current approach can provide better model performance than the traditional judgment method.
-However, we still need to clarify the reliable/robust benchmark that can use to do parameter screening.
+However, the benchmark used to seperate "sensitive" and "insensitive" parameter may need to be exaimed to each PBPK model.
 \end{itemize}
 \end{alertblock}
 %
@@ -241,7 +242,7 @@ However, we still need to clarify the reliable/robust benchmark that can use to 
 \begin{figure}
 \includegraphics[width=\linewidth]{fig7.pdf}
 \caption{Model evaluation result for the 8 experimental human studies with different APAP dosages. 
-  The determination coefficient ($R^2$) was used to judge the model performance in each group.
+  The coefficient of determination ($R^2$) was used to judge the model performance in each group.
 }
 \end{figure}
 \begin{figure}
@@ -250,8 +251,7 @@ However, we still need to clarify the reliable/robust benchmark that can use to 
 \includegraphics[width=\textwidth]{fig8.pdf}
 \column{.30\linewidth}
 \caption{Global evaluation of model fit and model performance. Restricting the MCMC simulation to the sensitive parameters can reduce computational burden while showing little change in model performance.
-We further find that the simulation from all sensitive parameter (ASP) can provide better precision (residual SD) than original setting.
-However, it cannot provide the same test result in accuracy (residual mean). }
+We further find that the simulation from all sensitive parameter (ASP) can provide better precision (residual SD) than original parameters (OAP, OSP) with simulation results for accuracy (residual mean).}
 \label{fig:example right}
 \end{columns}
 \end{figure}
@@ -282,10 +282,10 @@ However, it cannot provide the same test result in accuracy (residual mean). }
     &  & All parameter & Original estimated & All sensitive & Original sensitive \\
     \midrule
     \multicolumn{2}{l}{Number of parameter} & 58 & 21 & 20 & 11 \\
-    \multicolumn{2}{l}{MCMC (hr)} & 20.8 & 35.2 & 66.3 & 37.1 \\
-	    GSA (min) & eFAST & - & - & 9.83 & 2.26 \\
-	   \multirow{2}{*}{} & Jansen & - & - & 6.91 & 2.39 \\
-	    & Owen & - & - & 22.9 & 7.36 \\
+    \multicolumn{2}{l}{MCMC (hr)} & 66.3 & 37.1 & 35.2 & 20.8 \\
+	    GSA (hr) & eFAST & - & - & 0.164 & 0.038 \\
+	   \multirow{2}{*}{} & Jansen & - & - & 0.115 & 0.040 \\
+	    & Owen & - & - & 0.382 & 0.123 \\
     \hline   
   \end{tabular}
    \end{threeparttable} 
@@ -295,7 +295,7 @@ However, it cannot provide the same test result in accuracy (residual mean). }
 %
 \setbeamercolor{block title}{fg=red,bg=white} % Change the block title color
 \begin{block}{Acknowledgements}
-\small This work was supported by U.S. Food and Drug Administration (RFA-FD-16-026) \\
+\small This work was supported by U.S. Food and Drug Administration (1U01FD005838) \\
 \end{block}
 %
 \begin{alertblock}{Bibliography}

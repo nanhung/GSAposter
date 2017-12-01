@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.8.10)  28 NOV 2017 17:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.8.10)  1 DEC 2017 20:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -697,7 +697,7 @@ beamerposter: checking size input, please wait.
 beamerposter: the input a0\ 1\ was correct, we proceed.
 beamerposter: finished size input check.
 beamerposter: myfontscale=1.0
-beamerposter: myfontscale=0.9
+beamerposter: myfontscale=0.89
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
 Package: fp 1995/04/02
 
@@ -1291,7 +1291,7 @@ LaTeX Info: Redefining \includegraphics on input line 95.
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 95.
  (./main.nav)
-LaTeX Font Info:    Calculating math sizes for size <38.7> on input line 95.
+LaTeX Font Info:    Calculating math sizes for size <38.27> on input line 95.
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 95.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
@@ -1304,41 +1304,41 @@ LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 95.
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
-LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <38.7> not available
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <38.27> not available
 (Font)              size <24.88> substituted on input line 95.
 
 
-LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <27.08987> not available
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <26.78888> not available
 (Font)              size <24.88> substituted on input line 95.
 
 
-LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <19.34999> not available
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <19.135> not available
 (Font)              size <20.74> substituted on input line 95.
 
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <38.7> not available
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <38.27> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 95.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <27.08987> not available
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <26.78888> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 95.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <19.34999> not available
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <19.135> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 95.
-LaTeX Font Info:    Calculating math sizes for size <32.25> on input line 95.
+LaTeX Font Info:    Calculating math sizes for size <31.89> on input line 95.
 
-LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <32.25> not available
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <31.89> not available
 (Font)              size <24.88> substituted on input line 95.
 
 
-LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <22.57489> not available
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <22.32289> not available
 (Font)              size <20.74> substituted on input line 95.
 
 
-LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16.125> not available
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <15.94499> not available
 (Font)              size <17.28> substituted on input line 95.
 
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <32.25> not available
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <31.89> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 95.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <22.57489> not available
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <22.32289> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 95.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <16.125> not available
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <15.94499> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 95.
 <logo.png, id=13, 91.542pt x 99.9735pt>
 File: logo.png Graphic file (type png)
@@ -1355,25 +1355,25 @@ LaTeX Font Info:    Try loading font information for TS1+lmss on input line 324
 (/usr/share/texmf/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Calculating math sizes for size <26.87> on input line 324.
+LaTeX Font Info:    Calculating math sizes for size <26.58> on input line 324.
 
 
-LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <26.87> not available
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <26.58> not available
 (Font)              size <24.88> substituted on input line 324.
 
 
-LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <18.80891> not available
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <18.60591> not available
 (Font)              size <17.28> substituted on input line 324.
 
 
-LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <13.435> not available
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <13.29> not available
 (Font)              size <14.4> substituted on input line 324.
 
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <26.87> not available
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <26.58> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 324.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <18.80891> not available
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <18.60591> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 324.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <13.435> not available
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <13.29> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 324.
 <fig0.pdf, id=19, 796.6487pt x 597.47943pt>
 File: fig0.pdf Graphic file (type pdf)
@@ -1420,21 +1420,21 @@ File: fig7.pdf Graphic file (type pdf)
  <use fig7.pdf>
 Package pdftex.def Info: fig7.pdf used on input line 324.
 (pdftex.def)             Requested size: 771.12517pt x 599.77028pt.
-LaTeX Font Info:    Calculating math sizes for size <22.39> on input line 324.
+LaTeX Font Info:    Calculating math sizes for size <22.14> on input line 324.
 
 
-LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <22.39> not available
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <22.14> not available
 (Font)              size <20.74> substituted on input line 324.
 
 
-LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <15.67293> not available
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <15.49792> not available
 (Font)              size <14.4> substituted on input line 324.
 
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <22.39> not available
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <22.14> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 324.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <15.67293> not available
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <15.49792> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 324.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <11.19499> not available
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <11.06999> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 324.
 <fig8.pdf, id=29, 867.24pt x 1011.78pt>
 File: fig8.pdf Graphic file (type pdf)
@@ -1442,18 +1442,23 @@ File: fig8.pdf Graphic file (type pdf)
 Package pdftex.def Info: fig8.pdf used on input line 324.
 (pdftex.def)             Requested size: 532.07825pt x 620.78207pt.
 
-Underfull \hbox (badness 3229) in paragraph at lines 324--324
-\T1/lmss/m/n/22.39 per-for-mance. Re-strict-
+Underfull \hbox (badness 2617) in paragraph at lines 324--324
+\T1/lmss/m/n/22.14 sen-si-tive pa-ram-e-ters can
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 324--324
-\T1/lmss/m/n/22.39 find that the sim-u-la-tion
+Underfull \hbox (badness 1939) in paragraph at lines 324--324
+\T1/lmss/m/n/22.14 den while show-ing lit-tle
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 324--324
-\T1/lmss/m/n/22.39 e-ter (ASP) can pro-vide
+Underfull \hbox (badness 1270) in paragraph at lines 324--324
+\T1/lmss/m/n/22.14 change in model per-for-
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 324--324
+\T1/lmss/m/n/22.14 sion (resid-ual SD) than
  []
 
 File: logo.png Graphic file (type png)
@@ -1497,26 +1502,26 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 13.81999pt have occurred.
+(Font)              up to 13.39pt have occurred.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 326.
  ) 
 Here is how much of TeX's memory you used:
  20787 strings out of 495028
- 384244 string characters out of 6181497
- 600817 words of memory out of 5000000
+ 384246 string characters out of 6181497
+ 600365 words of memory out of 5000000
  23433 multiletter control sequences out of 15000+600000
- 112447 words of font info for 115 fonts, out of 8000000 for 9000
+ 112441 words of font info for 115 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  55i,21n,66p,389b,1347s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/shar
-e/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmsso17.pfb>
-Output written on main.pdf (1 page, 535027 bytes).
+ips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb>
+Output written on main.pdf (1 page, 545427 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
+ 146 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
  11 named destinations out of 1000 (max. 500000)
  94 words of extra memory for PDF output out of 10000 (max. 10000000)
 
